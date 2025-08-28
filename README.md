@@ -11,7 +11,7 @@ Outputs are verified with simulation waveforms and displayed on **7-segment disp
 
 ### ALU_1
 **Block Diagram**  
-![ALU_1 Block Diagram](alu1_block.png)
+![ALU_1 Block Diagram](ALU1_BLOCK.PNG)
 
 **Simulation Waveform**  
 ![ALU_1 Waveform](alu1_waveform.png)
@@ -20,7 +20,7 @@ Outputs are verified with simulation waveforms and displayed on **7-segment disp
 
 ### ALU_2
 **Block Diagram**  
-![ALU_2 Block Diagram](alu2_block.png)
+![ALU_2 Block Diagram](ALU2_BLOCK.PNG)
 
 **Simulation Waveform**  
 ![ALU_2 Waveform](alu2_waveform.png)
@@ -29,7 +29,7 @@ Outputs are verified with simulation waveforms and displayed on **7-segment disp
 
 ### ALU_3
 **Block Diagram**  
-![ALU_3 Block Diagram](alu3_block.png)
+![ALU_3 Block Diagram](ALU3_BLOCK.PNG)
 
 **Simulation Waveform**  
 ![ALU_3 Waveform](alu3_waveform.png)
@@ -37,28 +37,26 @@ Outputs are verified with simulation waveforms and displayed on **7-segment disp
 ---
 
 ## Features
-- **Registers** to store 8-bit inputs A and B across clock cycles.  
+- **Registers** to store 8-bit inputs across clock cycles.  
 - **FSM + Decoder** generate control signals and opcodes.  
 - **ALU_1**: Standard arithmetic & logic operations (ADD, SUB, etc.).  
 - **ALU_2**: Alternate operations with modified opcode mapping.  
-- **ALU_3**: Even/odd check of student ID → outputs `"y"` or `"n"` on 7-seg.  
-- **Output** displayed on dual 7-segment displays and student ID display.  
+- **ALU_3**: Even/odd check of input → outputs `"y"` or `"n"` on 7-seg.  
+- **Output** displayed on dual 7-segment displays and a status display.  
 
 ---
 
 ## Tools
-- **Quartus II** (VHDL design, simulation, synthesis)  
-- **FPGA Board** (Altera/Intel compatible)  
-- **7-segment display modules**
+- **VHDL** for hardware description and logic design  
+- **Quartus II** for simulation and synthesis  
+- **FPGA board** for implementation and testing  
+- **7-segment displays** for visual output  
 
 ---
 
 ## Results
 - Verified CPU design through Quartus simulation waveforms.  
 - Demonstrated functionality of multiple ALU variations.  
-- Reinforced concepts of sequential circuits, finite state machines, and processor design.  
+- Showcases understanding of sequential circuits, finite state machines, and processor design.  
 
 ---
-
-Made by **Jihan Chowdhury**  
-Toronto Metropolitan University – COE 328 (Digital Systems)
