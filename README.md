@@ -11,7 +11,7 @@ Outputs are verified with simulation waveforms and displayed on **7-segment disp
 
 ### ALU_1
 **Block Diagram**  
-![ALU_1 Block Diagram](ALU1_BLOCK.PNG)
+![ALU_1 Block Diagram](alu1_block.PNG)
 
 **Simulation Waveform**  
 ![ALU_1 Waveform](alu1_waveform.png)
@@ -20,7 +20,7 @@ Outputs are verified with simulation waveforms and displayed on **7-segment disp
 
 ### ALU_2
 **Block Diagram**  
-![ALU_2 Block Diagram](ALU2_BLOCK.PNG)
+![ALU_2 Block Diagram](alu2_block.PNG)
 
 **Simulation Waveform**  
 ![ALU_2 Waveform](alu2_waveform.png)
@@ -29,7 +29,7 @@ Outputs are verified with simulation waveforms and displayed on **7-segment disp
 
 ### ALU_3
 **Block Diagram**  
-![ALU_3 Block Diagram](ALU3_BLOCK.PNG)
+![ALU_3 Block Diagram](alu3_block.PNG)
 
 **Simulation Waveform**  
 ![ALU_3 Waveform](alu3_waveform.png)
